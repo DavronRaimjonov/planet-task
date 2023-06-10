@@ -1,11 +1,12 @@
 import { Typography } from "@mui/material";
 import React from "react";
+import { Container } from "../../generic/style";
 
 const Home = () => {
   return (
-    <Typography variant="h1">
-      Growing Beautiful <br /> Plants at Home
-    </Typography>
+    <Container>
+      <Typography variant="h1"></Typography>
+    </Container>
   );
 };
 
