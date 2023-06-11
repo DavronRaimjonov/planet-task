@@ -28,6 +28,7 @@ CollextionWrap.Text = styled(Typography)`
 `;
 CollextionWrap.Img = styled.div`
   overflow: hidden;
+  cursor: zoom-in;
   &:hover {
     img {
       transition: all 0.4s ease-in-out;

@@ -1,11 +1,12 @@
 import { Stack, Typography } from "@mui/material";
 import { useState } from "react";
-import { ProductBtn } from "../../../data";
-import { Container } from "../../../generic/style";
+import { ProductBtn, products } from "../../../data";
+import { Button, Container } from "../../../generic/style";
 import { ProductWrapper } from "./style";
-
+import stars from "../../../assets/img/stars.png";
 const Product = () => {
   const [title, setTitle] = useState("new");
+  const filterProduct = products.filter((item) => item.category === title);
   return (
     <Container>
       <ProductWrapper>
@@ -25,6 +26,19 @@ const Product = () => {
             ))}
           </Stack>
         </ProductWrapper.Title>
+        <ProductWrapper.Cards>
+          {filterProduct.map((item) => (
+            <ProductWrapper.Card key={item.id}>
+              <img src={item.img} alt="" />
+              <h2>{item.title}</h2>
+              <ProductWrapper.Star src={stars} alt="" />
+              <p>${item.price}</p>
+            </ProductWrapper.Card>
+          ))}
+        </ProductWrapper.Cards>
+        <Stack direction={"row"} justifyContent={"center"}>
+          <Button $sm>View All</Button>
+        </Stack>
       </ProductWrapper>
     </Container>
   );

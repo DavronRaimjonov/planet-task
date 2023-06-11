@@ -13,7 +13,7 @@ const btnWidth = {
   lg: "160px",
 };
 
-export const Button = styled.div`
+export const Button = styled.button`
   background: #066f14;
   border-radius: 4px;
   font-family: "DM Sans";

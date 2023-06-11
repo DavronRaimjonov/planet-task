@@ -1,8 +1,10 @@
 import React from "react";
 import AboutUs from "./about-us";
 import Collection from "./collection";
-import Product from "./peoduct";
+import Customers from "./customers";
+import Product from "./product";
 import Showcase from "./showcase";
+import Subscirpe from "./subscripe";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Collection />
       <AboutUs />
       <Product />
+      <Customers />
+      <Subscirpe />
     </>
   );
 };

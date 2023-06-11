@@ -19,6 +19,7 @@ ShowcaseLeft.Vektor = styled.img`
   position: absolute;
   bottom: 10%;
   right: -20%;
+  z-index: -1;
   @media (max-width: 789px) {
     display: none;
   }

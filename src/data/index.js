@@ -1,6 +1,18 @@
 import collection1 from "../assets/img/collection1.png";
 import collection2 from "../assets/img/collection2.png";
 import collection3 from "../assets/img/collection3.png";
+import product1 from "../assets/img/product1.png";
+import product2 from "../assets/img/product2.png";
+import product3 from "../assets/img/product3.png";
+import product4 from "../assets/img/product4.png";
+import product5 from "../assets/img/product5.png";
+import product6 from "../assets/img/product6.png";
+import product7 from "../assets/img/product7.png";
+import product8 from "../assets/img/product8.png";
+import product9 from "../assets/img/product9.png";
+import product10 from "../assets/img/product10.png";
+import product11 from "../assets/img/product11.png";
+import product12 from "../assets/img/product12.png";
 export const navLink = [
   {
     id: 1,
@@ -76,5 +88,92 @@ export const ProductBtn = [
     id: 3,
     name: "Sale",
     title: "sale",
+  },
+];
+
+export const products = [
+  {
+    id: 1,
+    img: product1,
+    category: "new",
+    title: "Outdoor Plant",
+    price: "80.00",
+  },
+  {
+    id: 2,
+    img: product2,
+    category: "new",
+    title: "Monstera Plant",
+    price: "90.00",
+  },
+  {
+    id: 3,
+    img: product3,
+    category: "new",
+    title: "Pottel Plant",
+    price: "50.00",
+  },
+  {
+    id: 4,
+    img: product4,
+    category: "new",
+    title: "Indoor Plant",
+    price: "60.00",
+  },
+  {
+    id: 5,
+    img: product5,
+    category: "arrival",
+    title: "Banana Plant",
+    price: "30.00",
+  },
+  {
+    id: 6,
+    img: product6,
+    category: "arrival",
+    title: "Artifical Plant",
+    price: "60.00",
+  },
+  {
+    id: 7,
+    img: product7,
+    category: "arrival",
+    title: "Pottend Plant",
+    price: "70.00",
+  },
+  {
+    id: 8,
+    img: product8,
+    category: "arrival",
+    title: "Leaf Plant",
+    price: "25.00",
+  },
+  {
+    id: 9,
+    img: product9,
+    category: "sale",
+    title: "Home Plant",
+    price: "30.00",
+  },
+  {
+    id: 10,
+    img: product10,
+    category: "sale",
+    title: "Green Plant",
+    price: "60.00",
+  },
+  {
+    id: 11,
+    img: product11,
+    category: "sale",
+    title: "Bush Plant",
+    price: "70.00",
+  },
+  {
+    id: 12,
+    img: product12,
+    category: "sale",
+    title: "Cast Plant",
+    price: "25.00",
   },
 ];
