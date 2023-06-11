@@ -1,12 +1,13 @@
-import { Typography } from "@mui/material";
 import React from "react";
-import { Container } from "../../generic/style";
+import Collection from "./collection";
+import Showcase from "./showcase";
 
 const Home = () => {
   return (
-    <Container>
-      <Typography variant="h1"></Typography>
-    </Container>
+    <>
+      <Showcase />
+      <Collection />
+    </>
   );
 };
 

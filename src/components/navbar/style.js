@@ -6,6 +6,7 @@ export const NavbarWrapper = styled.nav`
   top: 0;
   background-color: #ffffff;
   padding: 20px 0;
+  z-index: 999;
 `;
 
 NavbarWrapper.Logo = styled(Link)`
