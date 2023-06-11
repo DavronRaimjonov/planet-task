@@ -6,10 +6,7 @@ import vektor from "../../../assets/img/vektorRight.png";
 const Collection = () => {
   return (
     <Container>
-      <CollextionWrap
-        direction={"row sm:column"}
-        justifyContent={"space-between"}
-      >
+      <CollextionWrap direction={"row"} justifyContent={"space-between"}>
         <CollextionWrap.Left>
           <Typography variant="h2">
             We have lots of plants collection for you and your family

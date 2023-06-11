@@ -13,6 +13,11 @@ import product9 from "../assets/img/product9.png";
 import product10 from "../assets/img/product10.png";
 import product11 from "../assets/img/product11.png";
 import product12 from "../assets/img/product12.png";
+import follow1 from "../assets/img/follow1.jfif";
+import follow2 from "../assets/img/follow2.png";
+import follow3 from "../assets/img/follow3.png";
+import follow4 from "../assets/img/follow4.png";
+import follow5 from "../assets/img/follow5.png";
 export const navLink = [
   {
     id: 1,
@@ -175,5 +180,95 @@ export const products = [
     category: "sale",
     title: "Cast Plant",
     price: "25.00",
+  },
+];
+
+export const followImg = [
+  {
+    id: 0,
+    img: follow1,
+  },
+  {
+    id: 1,
+    img: follow2,
+  },
+  {
+    id: 2,
+    img: follow3,
+  },
+  {
+    id: 3,
+    img: follow4,
+  },
+  {
+    id: 4,
+    img: follow5,
+  },
+];
+
+export const footerData = [
+  {
+    id: 1,
+    title: "Navigation",
+  },
+  {
+    id: 2,
+    link: "Home",
+  },
+  {
+    id: 3,
+    link: "About",
+  },
+  {
+    id: 4,
+    link: "Help & Support",
+  },
+  {
+    id: 5,
+    link: "Product",
+  },
+];
+export const footerData1 = [
+  {
+    id: 1,
+    title: "About Us",
+  },
+  {
+    id: 2,
+    link: "Contact",
+  },
+  {
+    id: 3,
+    link: "Address",
+  },
+  {
+    id: 4,
+    link: "Blog",
+  },
+  {
+    id: 5,
+    link: "About Us",
+  },
+];
+export const footerData2 = [
+  {
+    id: 1,
+    title: "Help",
+  },
+  {
+    id: 2,
+    link: "Coustomers Services",
+  },
+  {
+    id: 3,
+    link: "FAQs",
+  },
+  {
+    id: 4,
+    link: "We Are Hiring",
+  },
+  {
+    id: 5,
+    link: "Returns",
   },
 ];
