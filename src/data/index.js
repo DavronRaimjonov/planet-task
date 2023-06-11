@@ -29,7 +29,23 @@ export const navLink = [
     path: "/contact",
   },
 ];
-
+export const customers = [
+  {
+    id: 1,
+    title: "2000+",
+    coment: "Delivery",
+  },
+  {
+    id: 2,
+    title: "1200+",
+    coment: "Customers",
+  },
+  {
+    id: 3,
+    title: "1000+",
+    coment: "Product",
+  },
+];
 export const CollectionImg = [
   {
     id: 1,
@@ -42,5 +58,23 @@ export const CollectionImg = [
   {
     id: 3,
     img: collection3,
+  },
+];
+
+export const ProductBtn = [
+  {
+    id: 1,
+    name: "New Plants",
+    title: "new",
+  },
+  {
+    id: 2,
+    name: "New Arrivals",
+    title: "arrival",
+  },
+  {
+    id: 3,
+    name: "Sale",
+    title: "sale",
   },
 ];

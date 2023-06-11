@@ -3,24 +3,8 @@ import { Button, Container } from "../../../generic/style";
 import { ShowcaseLeft, ShowcaseRight, SHowcaseWrapper } from "./style";
 import showcaseImg from "../../../assets/img/showcase.png";
 import showcaseVektor from "../../../assets/img/klipartz.png";
+import { customers } from "../../../data";
 const Showcase = () => {
-  const customers = [
-    {
-      id: 1,
-      title: "2000+",
-      coment: "Delivery",
-    },
-    {
-      id: 2,
-      title: "1200+",
-      coment: "Customers",
-    },
-    {
-      id: 3,
-      title: "1000+",
-      coment: "Product",
-    },
-  ];
   return (
     <Container>
       <SHowcaseWrapper>
@@ -29,7 +13,7 @@ const Showcase = () => {
             Growing <br /> Beautiful Plants <br />
             at Home
           </Typography>
-          <Typography variant="body1" p={"40px 0"}>
+          <Typography variant="body1" p={"lg:40px 0 "}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor,
             accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas
             sa diam. Lectus elit, nulla elementum fringilla at.

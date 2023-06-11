@@ -17,5 +17,11 @@ a {
 img {
   max-width: 100%;
   height: auto;
-
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #066f14;
+  border-radius: 8px;
 }

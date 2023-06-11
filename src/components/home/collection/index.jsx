@@ -1,5 +1,4 @@
 import { Typography } from "@mui/material";
-import { Box, Stack } from "@mui/system";
 import { CollectionImg } from "../../../data";
 import { Container } from "../../../generic/style";
 import { CollextionWrap } from "./style";

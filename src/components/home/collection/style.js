@@ -1,4 +1,4 @@
-import { colors, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import { Stack } from "@mui/system";
 import styled from "styled-components";
 
